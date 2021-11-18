@@ -1,3 +1,0 @@
-Estimations for lines of code:
-Around 300 lines of code.
-
