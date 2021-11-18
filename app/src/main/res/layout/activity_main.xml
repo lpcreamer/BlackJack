@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/PlayerCard1"
+        style= "@style/CardStyle"
+        android:layout_alignParentBottom="true"
+        />
+    <TextView
+        android:id="@+id/PlayerCard2"
+        style= "@style/CardStyle"
+        android:layout_toRightOf ="@id/PlayerCard1"
+        android:layout_alignParentBottom="true"
+        />
+    <TextView
+        android:id="@+id/PlayerCard3"
+        style= "@style/CardStyle"
+        android:layout_toRightOf ="@id/PlayerCard2"
+        android:layout_alignParentBottom="true"
+        />
+    <TextView
+        android:id="@+id/PlayerCard4"
+        style= "@style/CardStyle"
+        android:layout_toRightOf ="@id/PlayerCard3"
+        android:layout_alignParentBottom="true"
+        />
+    <TextView
+        android:id="@+id/PlayerCard5"
+        style= "@style/CardStyle"
+        android:layout_toRightOf ="@id/PlayerCard4"
+        android:layout_alignParentBottom="true"
+        />
+
+
+    <TextView
+        android:id="@+id/DealerCard1"
+        style= "@style/CardStyle"
+
+        />
+    <TextView
+        android:id="@+id/DealerCard2"
+        style= "@style/CardStyle"
+        android:layout_toRightOf ="@id/PlayerCard1"
+        />
+    <TextView
+        android:id="@+id/DealerCard3"
+        style= "@style/CardStyle"
+        android:layout_toRightOf ="@id/PlayerCard2"
+        />
+    <TextView
+        android:id="@+id/DealerCard4"
+        style= "@style/CardStyle"
+        android:layout_toRightOf ="@id/PlayerCard3"
+        />
+    <TextView
+        android:id="@+id/DealerCard5"
+        style= "@style/CardStyle"
+        android:layout_toRightOf ="@id/PlayerCard4"
+        />
+
+    <TextView
+        android:id="@+id/Deck"
+        style="@style/CardStyle"
+        android:layout_centerInParent="true"
+    />
+
+    <TextView
+        android:id="@+id/DealerScore"
+        style= "@style/ScoreStyle"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/DealerCard3"
+        android:text="0"
+        />
+
+    <TextView
+        android:id="@+id/PlayerScore"
+        style= "@style/ScoreStyle"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/PlayerCard3"
+        android:text="0"
+        />
+
+
+    <Button
+        android:id="@+id/HitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/PlayerCard1"
+        android:layout_alignBottom="@+id/PlayerCard2"
+        android:text="Hit"
+        android:onClick="playerHit"
+
+        />
+    <Button
+        android:id="@+id/StopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf ="@id/HitButton"
+        android:layout_alignBottom="@+id/PlayerCard3"
+        android:layout_alignParentBottom="true"
+        android:text="Stop"
+        android:onClick="dealerHit"
+    />
+    <Button
+        android:id="@+id/NewGameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf ="@id/StopButton"
+        android:layout_alignBottom="@+id/PlayerCard3"
+        android:layout_alignParentBottom="true"
+        android:text="New Game"
+        android:onClick="newGame"
+     />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/bike_card_foreground"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>

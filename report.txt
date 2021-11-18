@@ -1,0 +1,11 @@
+
+
+        For the development process we started by meeting and discussing the setup of the program, what we wanted the design to be, what the capabilities needed to be, 
+   and how we would accomplish that. Durring this step we made a UML diagram with the classes that we used in the program. This step took us about 2 hours. 
+        In the next step of the development, we wrote the xml for the blackjack app. Liam wrote most of the xml since Kaytin is in the Android class. Thus, Liam learned the android studio durring this process. Then we made the 
+   Card, Player, Dealer, and Deck java classes. Kaytin did most of these. Finally we wrote in MainActivity.java which we split the work of evenly. Finally, we fixed 
+   the astetics of the app. This took about 6.5 hours in total. 
+       We decided to do all of the development together on Zoom while screen sharing so even if one of us was not physically writing the code we both collaborated on 
+  everything. Thus, the work was exactly even. We estimated that each of us wrote about 400 lines of code. 
+  Since we both estimated that the project would take 300 lines in total, we learnd that we largely underestimated how many lines of code we would need. 
+  
