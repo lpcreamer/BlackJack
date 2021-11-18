@@ -1,2 +1,2 @@
-# CS483MatrangolaCreamerBlackJack
-We put the Screen Recording and report in LinkToRecording and report.txt
+# BlackJack
+School Project BlackJack for android
